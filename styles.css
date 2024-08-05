@@ -1,0 +1,80 @@
+
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: #f1e9e9;
+    line-height: 1.6;
+    background-image: url(https://images.pexels.com/photos/108370/pexels-photo-108370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+
+header {
+    background: #f8b400;
+    color: #e3dbdb;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #d8d3d3;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('ice-cream-hero.jpg') no-repeat center center/cover;
+    color: #edecec;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero button {
+    background: #f8b400;
+    color: #e4d9d9;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#about, #menu, #contact {
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #923b0494;
+    
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #ece9e9;
+    color: #0c0a0a;
+    text-align: center;
+    padding: 10px 0;
+}
+h1,h2{
+    color: #0b0b0b;
+}
+h3{
+    color: gold;
+}
